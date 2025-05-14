@@ -7,7 +7,7 @@ app = FastAPI()
 #setting up app routes
 @app.get('/')
 async def root():
-    return {'example': 'This is example', 'data': 999}
+    return {'example': 'This is a example', 'data': 999}
 
 #main function of the API
 @app.get('/random')
